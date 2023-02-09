@@ -3,7 +3,7 @@ header{
 }
 
 header .header_container{
-    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url('../../assets/bg5.JPG');
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url('../../assets/bg5.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@ header .header_container{
     margin-left: -10px;
     color: transparent;
     -webkit-text-stroke: 1px var(--color-white);
-    background: url('../../assets/textbg.PNG');
+    background: url('../../assets/textbg.png');
     -webkit-background-clip: text;
     background-position: 0px 0px;
     animation:text 20s linear infinite;

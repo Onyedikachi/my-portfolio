@@ -1,10 +1,10 @@
 import React from "react";
 import "./experience.css";
-import html from '../../assets/html.PNG'
-import css from '../../assets/css.PNG'
-import js from '../../assets/js.PNG'
-import react from '../../assets/react.PNG'
-import bts from '../../assets/bootstrap.PNG'
+import html from '../../assets/html.png'
+import css from '../../assets/css.png'
+import js from '../../assets/js.png'
+import react from '../../assets/react.png'
+import bts from '../../assets/bootstrap.png'
 
 
 
