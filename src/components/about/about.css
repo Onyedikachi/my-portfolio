@@ -1,0 +1,69 @@
+
+.about_container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+}
+.about_img{
+  width: 200px;
+  height: 250px;
+   overflow: hidden;
+  
+}
+.about_me{
+   position: relative;
+   width: 200px;
+   aspect-ratio: 1/1;
+   background: #060c21;
+  display: grid;
+  place-items: center;
+ 
+}
+.about_me::before{
+   content: '';
+   position: absolute;
+    top: 15px;
+    right: -27px;
+    border: 6px solid burlywood;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+.about_content p{ 
+    margin: 2rem 0 2.6rem;
+    color: #333;
+}
+
+
+
+@media screen and (max-width:850px) {
+    .about_container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+   
+    .about_me{
+        margin: 2rem auto 3rem;
+    }
+    .about_content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+  
+   
+   .about_content{
+       text-align: center;
+   }
+   .about_content p{
+       margin: 1.5rem 0;
+   }
+   .about_me{
+      margin: 0 auto 3rem;
+   }
+}
