@@ -1,10 +1,11 @@
 import React from "react";
 import "./experience.css";
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import js from '../../assets/js.png'
+import php from '../../assets/php.png'
 import react from '../../assets/react.png'
-import bts from '../../assets/bootstrap.png'
+import swift from '../../assets/swift.png'
+import node from '../../assets/nodejs.png'
+import python from '../../assets/python.png'
+import postgres from '../../assets/postgre.png'
 
 
 
@@ -12,33 +13,38 @@ import bts from '../../assets/bootstrap.png'
 const data = [
   {
     id :1,
-    image: html,
-    title:'HTML',
+    image: node,
+    title:'NodeJS',
+  },
+  {
+    id :2,
+    image: react,
+    title:'ReactJS',
+ 
   },
   
-   {
+  {
     id :3,
-    image: css,
-    title:'CSS',
+    image: python,
+    title:'Python',
  
   },
   {
     id :4,
-    image: js,
-    title:'Javascript',
+    image: php,
+    title:'PHP',
     
   },
   {
     id :5,
-    image: bts,
-    title:'Bootstrap',
+    image: postgres,
+    title:'Postgres SQL',
   
   },
   {
     id :6,
-    image: react,
-    title:'React Js',
-   
+    image: swift,
+    title:'Swift',
   }
 ]
 

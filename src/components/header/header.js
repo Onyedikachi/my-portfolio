@@ -15,7 +15,7 @@ const Header = () => {
         <div className="hero-text" data-aos='zoom-out' data-aos-delay='1000'>
           <h4>Hello I'm</h4>
           <h1>Nwosu Onyedikachi</h1>
-          <p className='light'>A Software Engineer</p>
+          <p className='light'>A Software Engineer and Technical Writer based in Lagos, NIGERIA</p>
           <CTA/>
          </div>
          <Socials />

@@ -1,0 +1,67 @@
+
+const AWS = require('aws-sdk');
+const http = require('https');
+
+
+exports.handler = async function(event, context) {
+  
+  console.log(event)
+  
+   await Promise.all(event.Records.map(async (record) => {
+    const { body } = record;
+    let { Message: message } = JSON.parse(body);
+
+    if (typeof message === 'string' || message instanceof String) {
+      message = JSON.parse(message);
+    }
+
+    if (message.action === 'entitlement-updated') {
+      
+      const options = {
+          hostname: 'www.amazondigitaloffice.com',
+          path: "/api/sns",
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+      };
+
+      
+      await send(options, JSON.stringify(message))
+      
+      
+    } else {
+      throw new Error(`Unhandled action - msg: ${JSON.stringify(record)}`);
+    }
+  }));
+  
+  return context.logStreamName;
+}
+
+
+function send(options, data) {
+  return new Promise(((resolve, reject) => {
+    const request = http.request(options, (response) => {
+      response.setEncoding('utf8');
+      let returnData = '';
+
+      if (response.statusCode < 200 || response.statusCode >= 300) {
+        return reject(new Error(`${response.statusCode}: ${response.req.getHeader('host')} ${response.req.path}`));
+      }
+
+      response.on('data', (chunk) => {
+        returnData += chunk;
+      });
+
+      response.on('end', () => {
+        resolve(JSON.parse(returnData));
+      });
+
+      response.on('error', (error) => {
+        reject(error);
+      });
+    });
+    request.write(data)
+    request.end();
+  }));
+}
