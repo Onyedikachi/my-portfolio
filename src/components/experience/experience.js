@@ -7,9 +7,6 @@ import node from '../../assets/nodejs.png'
 import python from '../../assets/python.png'
 import postgres from '../../assets/postgre.png'
 
-
-
-
 const data = [
   {
     id :1,

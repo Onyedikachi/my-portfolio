@@ -17,8 +17,15 @@ const About = () => {
 
         <div className="about_content" data-aos='zoom-out-left'>
 
-          <p>I'm Nwosu, a Software  Engineer expert in both front-end and backend software with Nodejs, React, Python, Laravel with excellent user experience. </p>
-          <p>I build websites to help my clients push their businesses further online. My goal is to bring across clients message and identity in the most creative way.</p>
+          <p>I'm Software Engineer with 4+ years of experience in 
+            designing and developing commercial software solutions for 
+            web and mobile applications. </p>
+          <p>Highly skilled in frontend and 
+            backend development which has contributed significantly to 
+            business needs and improved efficiency levels. </p>
+          <p>
+            Adept at relationship management, client satisfaction, project management, 
+             teamwork </p>
           <a href='#contact' className='btn btn-primary'>Contact Me</a>
         </div>
       
