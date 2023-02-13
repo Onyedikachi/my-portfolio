@@ -1,55 +1,46 @@
 import React from 'react'
 import './portfolio.css'
-import Portfolio1 from '../../assets/portfolio2.png'
-import Portfolio3 from '../../assets/portfolio3.jpeg'
-import Portfolio4 from '../../assets/portfolio5.jpeg'
-import Portfolio5 from '../../assets/portfolio1.jpeg'
-import Portfolio6 from '../../assets/portfolio4.jpeg'
-
-
+import Portfolio1 from '../../assets/meditex.png'
+import Portfolio3 from '../../assets/admin-portal.png'
+import Portfolio4 from '../../assets/paperlessoffice.png'
+import Portfolio5 from '../../assets/speedysignapp.png'
+import Portfolio6 from '../../assets/paperlessapp.png'
 
 const data = [
   {
     id :1,
     image: Portfolio1,
-    title:'Delivery Website',
-    github:'https://github.com',
-    demo: ' https://catapultexpress.netlify.app'
+    title:'Meditex Diagnostic Laboratory Website',
+    github:'',
+    demo: ' https://meditex.com.ng'
   },
-  // {
-  //   id :2,
-  //   image: Portfolio2,
-  //   title:'Blog post',
-  //   github:'https://github.com',
-  //   demo: 'https://netlify.com'
-  // },
    {
     id :3,
     image: Portfolio3,
-    title:'Ecommerce website',
-    github:'https://github.com',
-    demo: 'https://maefashion.netlify.app'
+    title:'SignTech Admin Portal',
+    github:'',
+    demo: 'http://admin.amazondigitaloffice.com'
   },
   {
     id :4,
     image: Portfolio4,
-    title:'Pastries Landing Page',
-    github:'https://github.com',
-    demo: 'https://pastry-landingpage.netlify.app'
+    title:'Amazon Digital office',
+    github:'',
+    demo: 'https://amazondigitaloffice.com'
   },
   {
     id :5,
     image: Portfolio5,
-    title:'Food Recipe App',
-    github:'https://github.com',
-    demo: 'https://searchfood-recipe.netlify.app/'
+    title:'SpeedySign Mobile App',
+    github:'',
+    demo: 'https://apps.apple.com/ng/app/signtech-speedysign/id1012982844?platform=iphone'
   },
   {
     id :6,
     image: Portfolio6,
-    title:'Memory Game App',
-    github:'https://github.com',
-    demo: 'https://memory-gameapp.netlify.app'
+    title:'SignTech Paperless Mobile App',
+    github:'',
+    demo: 'https://apps.apple.com/ng/app/signtech-paperless/id1184332679?platform=iphone'
   }
 ]
 
