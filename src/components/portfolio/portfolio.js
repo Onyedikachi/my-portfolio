@@ -52,7 +52,7 @@ const Portfolio = () => {
 
    <div className="container portfolio_container">
    {
-     data.map(({id, image, title, github, demo}) =>{
+     data.map(({id, image, title, demo}) =>{
        return ( 
         <article key={id}  data-aos='flip-up'className="portfolio_item">
           <div className="portfolio_image">
@@ -61,7 +61,7 @@ const Portfolio = () => {
             <h3>{title}</h3>
             <div className="portfolio_item_cta">
             <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
-            <a href={github} className='btn btn2' target='_blank'>Github</a>
+            {/* <a href={github} className='btn btn2' target='_blank'>Github</a> */}
             </div>
         </article>
        )
