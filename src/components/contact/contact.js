@@ -8,7 +8,8 @@ const Contact = () => {
   return (
     <section id='contact'>
       <h2 data-aos='fade-up'>Get in touch</h2>
-      <p data-aos='fade-down'>Do you want a website for your business? Contact me to get your nicely designed and reponsive website.</p>
+      <p data-aos='fade-down'> Do you have any Project that you need help with? 
+      Use any of these mediums below to contact me.</p>
       <div className="container contact-container">
         <div className="contact-options" data-aos='zoom-in-left'>
           <article className='contact-option'>
