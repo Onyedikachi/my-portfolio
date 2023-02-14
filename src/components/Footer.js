@@ -16,8 +16,8 @@ function Footer() {
 
        <div className='footer-socials'>
          <a href="https://facebook.com"><FaFacebook /></a>
-         <a href="http://github.com/Onyedikachi"><FaGithub /></a>
-         <a href="http://linkedin.com/in/devkachi"><FaLinkedin /></a>
+         <a href="https://github.com/Onyedikachi"><FaGithub /></a>
+         <a href="https://linkedin.com/in/devkachi"><FaLinkedin /></a>
        </div>
 
        <div className='footer-copyright'>
