@@ -6,6 +6,7 @@ function Footer() {
   return (
     <footer>
        <ul>
+          {/* eslint-disable-next-line*/}
          <li><a href="#">Home</a></li>
          <li><a href="#about">About</a></li>
          <li><a href="#portfolio">Projects</a></li>

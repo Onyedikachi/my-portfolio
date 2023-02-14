@@ -11,6 +11,7 @@ const Nav = () => {
   const[activeNav, setActiveNav] = useState('#')
   return (
     <nav>
+      {/* eslint-disable-next-line*/}
       <a href='#' onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active': ''}><AiOutlineHome/>Home</a>
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active': ''}><AiOutlineUser/> About</a>
       <a href='#skills' onClick={() => setActiveNav('#skills')} className={activeNav === '#experience' ? 'active': ''}><BiBook/>Skills</a>
