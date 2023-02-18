@@ -14,13 +14,14 @@ import Footer from './components/Footer'
 
 const App = () => {
   const [loading, setLoading] = useState(true)
- const loader= document.getElementById('container')
+ const loader = document.getElementById('container')
 
   if(loader) {
     setTimeout(() => {
       loader.style.display= 'none'
       setLoading(false)
-    },2000)}
+    },2000)
+  }
   
 
   useEffect(() => {
