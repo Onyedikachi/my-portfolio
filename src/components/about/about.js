@@ -17,15 +17,17 @@ const About = () => {
 
         <div className="about_content" data-aos='zoom-out-left'>
 
-          <p>I'm Software Engineer with 4+ years of experience in 
-            designing and developing commercial software solutions for 
-            web and mobile applications. </p>
-          <p>Highly skilled in frontend and 
-            backend development which has contributed significantly to 
-            business needs and improved efficiency levels. </p>
-          <p>
-            Adept at relationship management, client satisfaction, project management, 
-             teamwork </p>
+          <p>I am a Software Engineer skilled at
+            technical leadership, communications,
+            and presentations with vast experience
+            in a project life cycle. </p>
+          <p>I am a committed professional with more
+            than four(4) years of experience in the
+            Information Technology industry. I have given good technical 
+            guidance on various projects with expertise in solution 
+            optimization, web & mobile development, and cloud computing, 
+            which has not only contributed significantly to business needs 
+            but also doubled efficiency levels.</p>
           <a href='#contact' className='btn btn-primary'>Contact Me</a>
         </div>
       
