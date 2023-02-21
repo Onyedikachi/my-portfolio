@@ -1,3 +1,3 @@
 # My Portfolio Website
-[Click here](https://github.com/facebook/create-react-app) to view the website.
+[Click here](https://onyedikachinwosu.com.ng) to view the website.
 
