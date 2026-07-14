@@ -45,7 +45,7 @@ const Nav = () => {
         </div>
 
         <div className="hidden md:block">
-          <a href={cv} download className="btn-ghost !px-5 !py-2.5 text-sm">
+          <a href={cv} target='_blank' download className="btn-ghost !px-5 !py-2.5 text-sm">
             Resume
           </a>
         </div>
